@@ -1,0 +1,49 @@
+html {
+}
+
+body{
+	background-color: rgb(0, 0, 0);
+	font-size: 20px;
+	color: #ffffff;
+}
+
+img{
+	float: left;
+	clear: left;
+	width: 100%;
+}
+h1 {
+	color: rgb(255, 255, 255);
+	font-size: 1.5em;
+}
+
+#bsp{
+	font-size: 4em;
+	
+}
+#box1{
+	border: 1vw solid rgb(217, 255, 0);
+	padding: 5%;
+	float:left;
+	width: 50%;
+	margin: 0 0 0 19%;
+}
+#box2{
+	border: 10px solid rgb(89, 0, 255);
+	float:left;
+	clear:none;
+	padding: 30px;
+	width:  14cm;
+
+}
+#boxworful{
+	border: 1cm solid rgb(96, 0, 250);
+	clear:left;
+	float:left;
+}
+
+
+@media screen and (max-width:800px){
+	body{font-size:40px}
+	h1{text-decoration: yellow}
+}
